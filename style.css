@@ -147,6 +147,7 @@
 	border-radius: 20px;
 
 	transition: .1s linear;
+	cursor: pointer;
 }
 
 .nav_item_active {
@@ -332,7 +333,7 @@
 }
 
 .description {
-	font-size: 18px;
+	font-size: 25px;
 	color: #fff;
 }
 
