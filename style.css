@@ -378,3 +378,26 @@
 	font-size: 20px;
 	color: #333;
 }
+
+.skills_block {
+	width: 750px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #fff;
+}
+
+.skills_block_row {
+	margin: 0px 25px;
+	padding: 25px;
+}
+
+.skills_block_item {
+	font-size: 30px;
+	font-weight: 900;
+	color: #2b1055;
+
+	margin: 25px 0px;
+}
