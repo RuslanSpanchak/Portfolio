@@ -19,7 +19,7 @@
 .header {
 	width: 100%;
 
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 
@@ -61,6 +61,8 @@
 	display: block;
 
 	position: relative;
+
+	cursor: pointer;
 }
 
 .menu_btn_span,
@@ -332,7 +334,11 @@
 	background: linear-gradient(to right, #D31027, #EA384D);
 }
 
-.description {
+.about_descriptions_place {
+	padding: 0px 55px;
+}
+
+.about_descriptions {
 	font-size: 25px;
 	color: #fff;
 }
@@ -381,24 +387,36 @@
 }
 
 .skills_block {
-	width: 750px;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	width: 1000px;
+	height: auto;
 
 	background-color: #fff;
-}
 
-.skills_block_row {
-	margin: 0px 25px;
 	padding: 25px;
 }
 
-.skills_block_item {
-	font-size: 30px;
+.skills_block_title {
+	font-size: 45px;
 	font-weight: 900;
 	color: #2b1055;
 
-	margin: 25px 0px;
+	text-align: center;
+}
+
+.skills_block_item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills_block_item_container {
+
+}
+
+.skills_name {
+	font-size: 35px;
+	font-weight: 900;
+	color: rebeccapurple;
+
+	margin: 15px 25px;
 }
