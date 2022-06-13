@@ -305,12 +305,21 @@
 
 .works_item_title {
 	position: absolute;
-	top: 250px;
+	top: 225px;
 	left: 50px;
 
 	font-size: 75px;
 	font-weight: 900;
 	color: #fff;
+}
+
+.works_item_descriptions {
+	font-size: 20px;
+	color: #fff;
+
+	position: absolute;
+	top: 300px;
+	left: 50px;
 }
 
 .works_btn {
@@ -324,14 +333,24 @@
 	background: linear-gradient(to right, #e52d27, #b31217);
 
 	position: absolute;
-	top: 340px;
+	top: 350px;
 	left: 50px;
 
 	transition: 1s linear;
 }
 
 .works_btn:hover {
-	background: linear-gradient(to right, #D31027, #EA384D);
+	background: linear-gradient(to right, #F00000, #DC281E);
+}
+
+.code_btn {
+	background: linear-gradient(to right, #FF512F, #F09819);
+
+	left: 200px;
+}
+
+.code_btn:hover {
+	background: linear-gradient(to right, #e65c00, #F9D423);
 }
 
 .about_descriptions_place {

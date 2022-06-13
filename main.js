@@ -18,23 +18,51 @@ $("#menu_btn").click(function(e) {
 
 })
 
-$(".section").click(function() {
+// $(".section").click(function() {
+
+// 	$("#menu_btn").toggleClass("menu_btn_active");
+// 	$(".nav").toggleClass("nav_active");
+
+// })
+
+// $(".works").click(function() {
+
+// 	$("#menu_btn").toggleClass("menu_btn_active");
+// 	$(".nav").toggleClass("nav_active");
+
+// })
+
+// $(".footer").click(function() {
+
+// 	$("#menu_btn").toggleClass("menu_btn_active");
+// 	$(".nav").toggleClass("nav_active");
+
+// })
+
+$("#home").click(function() {
 
 	$("#menu_btn").toggleClass("menu_btn_active");
 	$(".nav").toggleClass("nav_active");
 
 })
 
-$(".works").click(function() {
+$("#work").click(function() {
 
 	$("#menu_btn").toggleClass("menu_btn_active");
 	$(".nav").toggleClass("nav_active");
-
+	
 })
 
-$(".footer").click(function() {
+$("#about").click(function() {
 
 	$("#menu_btn").toggleClass("menu_btn_active");
 	$(".nav").toggleClass("nav_active");
+	
+})
 
+$("#skills_scroll").click(function() {
+
+	$("#menu_btn").toggleClass("menu_btn_active");
+	$(".nav").toggleClass("nav_active");
+	
 })
