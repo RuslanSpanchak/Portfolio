@@ -18,26 +18,26 @@ $("#menu_btn").click(function(e) {
 
 })
 
-// $(".section").click(function() {
+$(".section").click(function() {
 
-// 	$("#menu_btn").toggleClass("menu_btn_active");
-// 	$(".nav").toggleClass("nav_active");
+	$("#menu_btn").toggleClass("menu_btn_active");
+	$(".nav").toggleClass("nav_active");
 
-// })
+})
 
-// $(".works").click(function() {
+$(".works").click(function() {
 
-// 	$("#menu_btn").toggleClass("menu_btn_active");
-// 	$(".nav").toggleClass("nav_active");
+	$("#menu_btn").toggleClass("menu_btn_active");
+	$(".nav").toggleClass("nav_active");
 
-// })
+})
 
-// $(".footer").click(function() {
+$(".footer").click(function() {
 
-// 	$("#menu_btn").toggleClass("menu_btn_active");
-// 	$(".nav").toggleClass("nav_active");
+	$("#menu_btn").toggleClass("menu_btn_active");
+	$(".nav").toggleClass("nav_active");
 
-// })
+})
 
 $("#home").click(function() {
 
