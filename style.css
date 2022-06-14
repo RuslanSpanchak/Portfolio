@@ -439,3 +439,194 @@
 
 	margin: 15px 25px;
 }
+
+@media (max-width: 822px) {
+
+	.text {
+		font-size: 75px;
+	}
+
+	.btn {
+		font-size: 15px;
+
+		transform: translateY(75px);
+	}
+
+}
+
+@media (max-width: 1000px) {
+
+	.header {
+		padding: 30px 50px;
+	}
+
+	.text {
+		font-size: 75px;
+	}
+
+	.btn {
+		font-size: 15px;
+
+		transform: translateY(75px);
+	}
+
+	.works_item {
+		width: 750px;
+	}
+
+	.works_img {
+		width: 750px;
+	}
+
+	.background_color {
+		width: 750px;
+	}
+
+	.skills_block {
+		width: 850px;
+	}
+
+}
+
+@media (max-width: 750px) {
+
+	.header {
+		padding: 30px 25px;
+	}
+
+	.works_item {
+		width: 650px;
+	}
+
+	.works_img {
+		width: 650px;
+	}
+
+	.background_color {
+		width: 650px;
+	}
+
+	.skills_block {
+		width: 700px;
+	}
+
+	.skills_name {
+		margin: 15px 35px;
+	}
+
+}
+
+@media (max-width: 750px) {
+
+	.header {
+		padding: 30px 15px;
+	}
+
+	.logo {
+		font-size: 25px;
+	}
+
+	.works_item {
+		width: 500px;
+	}
+
+	.works_img {
+		width: 500px;
+	}
+
+	.background_color {
+		width: 500px;
+	}
+
+	.skills_block {
+		width: 500px;
+	}
+
+	.skills_name {
+		margin: 15px 0px;
+	}
+
+	.skills_block_item {
+		flex-direction: column;
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.header {
+		padding: 30px 0px;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.works_item {
+		width: 400px;
+	}
+
+	.works_img {
+		width: 400px;
+	}
+
+	.background_color {
+		width: 400px;
+	}
+
+	.works_item_title {
+		top: 275px;
+		left: 25px;
+	}
+
+	.works_item_descriptions {
+		top: 350px;
+		left: 30px;
+	}
+
+	.works_btn {
+		top: 400px;
+		left: 30px;
+	}
+
+	.code_btn {
+		left: 180px;
+	}
+
+	.works_item_title_castom {
+		font-size: 55px;
+	}
+
+	.works_item_descriptions_castom {
+		top: 400px;
+	}
+
+	.works_btn_castom {
+		top: 435px;
+	}
+
+	.code_btn_castom {
+		top: 435px;
+	}
+
+	.about_descriptions_place {
+		padding: 0px 0px;
+	}
+
+	.skills_block {
+		width: 400px;
+	}
+
+	.skills_name {
+		margin: 15px 0px;
+	}
+
+	.skills_block_item {
+		flex-direction: column;
+	}
+
+	.footer_links_item {
+		margin: 0px 8px;
+	}
+
+}
