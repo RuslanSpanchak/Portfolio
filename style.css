@@ -555,11 +555,22 @@
 @media (max-width: 500px) {
 
 	.header {
-		padding: 30px 0px;
+		padding: 30px 70px;
 	}
 
 	.logo {
 		display: none;
+	}
+
+	.menu_block {
+		position: absolute;
+
+		top: 25px;
+		right: 25px;
+	}
+
+	.nav_item {
+		padding: 0px 0px;
 	}
 
 	.works_item {
@@ -627,6 +638,134 @@
 
 	.footer_links_item {
 		margin: 0px 8px;
+	}
+
+}
+
+@media (max-width: 400px) {
+
+	.header {
+		padding: 30px 0px;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.menu_block {
+		position: absolute;
+
+		top: 25px;
+		right: 15px;
+	}
+
+	.nav_item {
+		padding: 0px 0px;
+	}
+
+	.works_item {
+		width: 300px;
+	}
+
+	.works_img {
+		width: 300px;
+	}
+
+	.background_color {
+		width: 300px;
+	}
+
+	.works_item_title {
+		top: 275px;
+		left: 15px;
+	}
+
+	.works_item_descriptions {
+		top: 350px;
+		left: 20px;
+	}
+
+	.works_btn {
+		top: 400px;
+		left: 20px;
+	}
+
+	.code_btn {
+		left: 165px;
+	}
+
+	.works_item_title_castom {
+		font-size: 55px;
+	}
+
+	.works_item_title_castom_two {
+		font-size: 55px;
+	}
+
+	.works_item_title_castom_pizza {
+		font-size: 50px;
+	}
+
+	.works_item_descriptions_castom {
+		top: 400px;
+	}
+
+	.works_btn_castom {
+		top: 435px;
+	}
+
+	.code_btn_castom {
+		top: 435px;
+	}
+
+	.about_descriptions_place {
+		padding: 0px 0px;
+	}
+
+	.skills_block {
+		width: 300px;
+	}
+
+	.skills_name {
+		margin: 15px 0px;
+
+		text-align: center;
+	}
+
+	.skills_block_item {
+		flex-direction: column;
+	}
+
+	.footer_links_item {
+		font-size: 20px;
+
+		margin: 0px 8px;
+	}
+
+	.footer_description {
+		font-size: 18px;
+	}
+
+}
+
+@media (max-width: 320px) {
+
+	.text {
+		font-size: 50px;
+	}
+
+	.btn {
+		transform: translateY(50px);
+	}
+
+	.footer_links_item {
+		font-size: 15px;
+
+		margin: 0px 5px;
+	}
+
+	.footer_description {
+		font-size: 10px;
 	}
 
 }
