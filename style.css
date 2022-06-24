@@ -440,6 +440,13 @@
 	margin: 15px 25px;
 }
 
+.input_place {
+	width: 660px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
 .input {
 	width: 325px;
 	height: 50px;
@@ -612,6 +619,24 @@
 
 }
 
+@media(max-width: 650px) {
+
+	.input_place {
+		width: 500px;
+	}
+
+	.input {
+		width: 245px;
+
+		margin-top: 15px;
+	}
+
+	.textarea {
+		width: 500px;
+	}
+
+}
+
 @media (max-width: 500px) {
 
 	.header {
@@ -694,6 +719,21 @@
 
 	.skills_block_item {
 		flex-direction: column;
+	}
+
+	.input_place {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.input {
+		width: 400px;
+
+		margin-top: 15px;
+	}
+
+	.textarea {
+		width: 400px;
 	}
 
 	.footer_links_item {
@@ -796,6 +836,16 @@
 		flex-direction: column;
 	}
 
+	.input {
+		width: 325px;
+
+		margin-top: 15px;
+	}
+
+	.textarea {
+		width: 325px;
+	}
+
 	.footer_links_item {
 		font-size: 20px;
 
@@ -816,6 +866,16 @@
 
 	.btn {
 		transform: translateY(50px);
+	}
+
+	.input {
+		width: 250px;
+
+		margin-top: 15px;
+	}
+
+	.textarea {
+		width: 250px;
 	}
 
 	.footer_links_item {
