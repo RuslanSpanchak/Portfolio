@@ -7,6 +7,23 @@
 	scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+	width: .9vw;
+}
+
+html::-webkit-scrollbar-thumb {
+	background-color: mediumpurple;
+	border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+	background-color: rebeccapurple;
+}
+
+html::-webkit-scrollbar-track {
+	background-color: #2b1055;
+}
+
 .wrap {
 	width: 100%;
 	min-height: 100vh;
@@ -38,6 +55,7 @@
 	color: #fff;
 
 	text-decoration: none;
+	text-shadow: 3px 3px 0px #000;
 }
 
 .menu_block {
@@ -267,8 +285,14 @@
 	color: #fff;
 
 	text-align: center;
+	text-shadow: 3px 3px 0px #000;
 
 	margin-bottom: 25px;
+}
+
+.works_amount {
+	font-size: 25px;
+	color: #fff;
 }
 
 .works_item {
@@ -297,6 +321,7 @@
 	font-size: 200px;
 	font-weight: 900;
 	color: #fff;
+	text-shadow: 3px 3px 0px #000;
 
 	position: absolute;
 	top: -75px;
@@ -311,6 +336,7 @@
 	font-size: 75px;
 	font-weight: 900;
 	color: #fff;
+	text-shadow: 3px 3px 0px #000;
 }
 
 .works_item_descriptions {
@@ -320,6 +346,10 @@
 	position: absolute;
 	top: 300px;
 	left: 50px;
+}
+
+.works_item_descriptions_castom {
+	top: 310px;
 }
 
 .works_btn {
@@ -501,6 +531,21 @@
 .send_btn:hover {
 	background-color: aqua;
 	color: #1c0522;
+}
+
+.reveal {
+	position: relative;
+
+	transform: translateY(150px);
+	transition: .3s linear;
+
+	opacity: 0;
+}
+
+.reveal.reveal_active {
+	transform: translateY(0px);
+
+	opacity: 1;
 }
 
 @media (max-width: 822px) {
